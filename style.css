@@ -58,7 +58,7 @@ i {
   margin-top: 14px;
 }
 
-@media screen and (mad-width: 720px) {
+@media screen and (max-width: 720px) {
   .header-content {
     width: 100%;
     flex-direction: column;
