@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=DM+Serif+Display:ital@0;1&family=Playwrite+GB+J+Guides:ital@0;1&family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <!-- //////////////////////////////////////////////////////////////// -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
@@ -18,14 +22,39 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <title>devBarber - Portifolio de uma landing page de uma barbearia</title>
+    <title>Lorena Vaz - Massoterapeuta</title>
 </head>
 
 <body>
     <div class="bg-home">
         <header>
             <nav class="header-content container">
-                <div class="header-icons" data-aos="fade-down">
+                
+
+                <div class="header-logo" data-aos="fade-down" data-aos-delay="300">
+                    <img data-aos="flip-up" data-aos-delay="300" data-aos.duration="1500" src="assets/logo_branco.png"
+                        alt="logo lorena">
+                </div>
+
+                <div class="header-title" data-aos="fade-down">
+                    <h1>Lorena Vaz</h1>
+                    <h3>Estética e bem-estar integrado</h3>
+                </div>
+
+                <div data-aos="fade-down" class="header-buttons">
+                    <a class="header-button"
+                        href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!"
+                        target="_blank">
+                        Agende seu horario
+                    </a>
+                    <a class="header-button"
+                        href="https://www.instagram.com/lorenayme_vaz/"
+                        target="_blank">
+                        Nos siga no instagram
+                    </a>
+                </div>
+
+                <!-- <div class="header-icons" data-aos="fade-down">
                     <a href="#">
                         <i class="fa-brands fa-instagram fa-2x"></i>
                     </a>
@@ -35,23 +64,13 @@
                     <a href="#">
                         <i class="fa-brands fa-tiktok fa-2x"></i>
                     </a>
-                </div>
-
-                <div class="header-logo" data-aos="fade-up" data-aos-delay="300">
-                    <img data-aos="flip-up" data-aos-delay="300" data-aos.duration="1500" src="assets/logo.svg" alt="logo da arbearia">
-                </div>
-
-                <div data-aos="fade-down">
-                    <a class="header-button" href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!" target="_blank">
-                        Agendar horario
-                    </a>
-                </div>
+                </div> -->
 
             </nav>
 
-            <main class="hero container" data-aos="fade-up" data-aos-delay="400">
-                <h1>ESTILO É UM REFLEXO DA SUA ATITUTE E SUA PERSONALIDADE</h1>
-                <P>Horário de funcionamento: 09:00 ás 19:00</P>
+            <main class="hero container" data-aos="fade-up" data-aos-delay="300">
+                <h1>VIVER COM HARMONIA É UM PROCESSO CONTÍNUO DE AUTOCONHECIMENTO E AUTOCUIDADO</h1>
+                
                 <a href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!"
                     class="button-contact" target="_blank">
                     Agendar horário
@@ -68,15 +87,15 @@
     <section class="about">
         <div class="container about-content">
             <div data-aos="zoom-in" data-aos-delay="100">
-                <img src="assets/images.svg" alt="Imagem sobre a barbearia">
+                <img src="assets/lorena_sobre.png" alt="Foto da Lorena">
             </div>
 
             <div class="about-description" data-aos="zoon-out-left" data-aos-delay="250">
-                <h2> Sobre </h2>
-                <p>texto texto texto texto texto texto texto texto texto texto vv texto texto texto texto texto texto
-                    texto texto texto texto texto texto texto texto texto texto texto texto texto texto v v texto texto
-                    texto texto texto texto</p>
-                <p>Horario de funcionamento: <strong>09:00</strong> ás <strong>19:00</strong>.</p>
+                <h2> Como posso te ajudar? </h2>
+                <p>Ofereço soluções completas em massoterapia, terapias integrativas e estética para promover bem-estar físico,
+                    emocional e energétioco. Meu objetivo é ajudar você a se sentir mais leve, relaxado e confiante. Vamos cuidar de você?
+                    </p>
+                
             </div>
         </div>
     </section>
@@ -90,27 +109,36 @@
                 texto texto texto texto texto texto texto texto texto texto texto texto texto </p>
         </div>
 
-        <section class="haircurts">
+        <section class="servicos">
 
-            <div class="haircut" data-aos="fade-up" data-aos-delay="150">
-                <img src="./assets/corte1.png" alt="Corte Normal">
-                <div class="haircut-info">
-                    <strong>Corte Normal</strong>
-                    <button>R$ 45,00</button>
+            <div class="servico" data-aos="fade-up" data-aos-delay="150">
+                <div class="servico-info">
+                    <strong>Massagem relaxante</strong>
+                    <p>Uma massagem que você esquece do mundo ao seu redor e se conecta com seu eu.
+                        Melhora a circulação, a qualidade de sono, dores e ajuda da ansiedade. </p>
                 </div>
+                <img src="./assets/massagem_relaxante.jpg" alt="">
             </div>
 
-            <div class="haircut" data-aos="fade-up" data-aos-delay="200">
-                <img src="./assets/corte2.png" alt="Corte de Barba">
-                <div class="haircut-info">
+            <div class="servico" data-aos="fade-up" data-aos-delay="200">
+                <img src="./assets/corte2.png" alt="">
+                <div class="servico-info">
                     <strong>Barba</strong>
                     <button>R$ 35,00</button>
                 </div>
             </div>
+            
+            <div class="servico" data-aos="fade-up" data-aos-delay="150">
+                <div class="servico-info">
+                    <strong>Corte Normal</strong>
+                    <button>R$ 45,00</button>
+                </div>
+                <img src="./assets/corte1.png" alt="">
+            </div>
 
-            <div class="haircut" data-aos="fade-up" data-aos-delay="250">
-                <img src="./assets/corte3.png" alt="Cabelo e barba">
-                <div class="haircut-info">
+            <div class="servico" data-aos="fade-up" data-aos-delay="250">
+                <img src="./assets/corte3.png" alt="">
+                <div class="servico-info">
                     <strong>Cabelo e barba</strong>
                     <button>R$ 65,00</button>
                 </div>
@@ -120,13 +148,7 @@
 
     </section>
 
-    <div class="services">
-        <h2>Venha conhecer</h2>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3695.918176860085!2d-51.3892819896874!3d-22.129095208016658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9493f5ec4e97dee5%3A0x192a5144f50532fd!2sBodrum%20Barber%20Shop!5e0!3m2!1spt-BR!2sbr!4v1727731432166!5m2!1spt-BR!2sbr"
-            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+    
 
     <footer class="footer">
         <div class="footer-icons">
@@ -141,16 +163,14 @@
             </a>
         </div>
         <div class="footer-logo">
-            <img src="assets/logo.svg" alt="Logo barbearia">
+            <img src="assets/logo_branco.png" alt="Logo lorena">
         </div>
         <p>Copyright 2024 | Dev Barbearia - Todos direitos reservadWos.</p>
     </footer>
 
     <!-- Button Whatsapp -->
     <a href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!"
-        class="btn-whatsapp" target="_blank"
-        data-aos="zoom-in-up" data-aos-delay="400"
-        >
+        class="btn-whatsapp" target="_blank" data-aos="zoom-in-up" data-aos-delay="400">
 
         <img src="assets/whatssapp.svg" alt="Botao WhatsApp">
         <span class="tooltip-text">

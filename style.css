@@ -24,6 +24,24 @@ i {
   gap: 14px;
 }
 
+.header-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #f4eadd;
+}
+.header-title h1 {
+  font-size: 80px;
+  font-family: "Antic Didone", serif;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+}
+
 .header-icons a:hover i {
   animation: translateY 0.8s infinite alternate;
   color: #d34040;
@@ -40,15 +58,15 @@ i {
 .header-button {
   border: 1px solid #fff;
   padding: 8px 24px;
-  border-radius: 4px;
+  border-radius: 20px;
   color: #fff;
   background-color: transparent;
   transition: background-color 0.8s;
 }
 
 .header-button:hover {
-  border: 1px solid #d34040;
-  background-color: #d34040;
+  border: 1px solid #d4a373;
+  background-color: #d4a373;
 }
 
 .header-logo {
@@ -91,7 +109,7 @@ i {
   content: "";
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/bg.svg");
+  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #d4a373), url("../assets/imagem1.jpeg");
   left: 0;
   top: 0;
   width: 100%;
@@ -116,7 +134,7 @@ i {
   text-align: center;
   line-height: 150%;
   max-width: 940px;
-  font-size: 46px;
+  font-size: 30px;
 }
 .hero p {
   text-align: center;
@@ -125,12 +143,13 @@ i {
 
 .button-contact {
   padding: 14px 28px;
-  color: #fff;
-  background-color: #d94140;
+  color: #d4a373;
+  background-color: #f4eadd;
   border: 0;
   font-size: 18px;
   font-weight: 600;
   margin: 14px 0;
+  border-radius: 20px;
 }
 
 .button-contact:hover {
@@ -164,7 +183,7 @@ i {
   }
 }
 .about {
-  background-color: #06121e;
+  background-color: #d4a373;
   overflow: hidden;
   color: #fff;
 }
@@ -174,10 +193,11 @@ i {
   align-items: center;
   justify-content: center;
   gap: 14px;
-  padding: 34px 14px 64px 14px;
+  padding: 0px 14px 0px 14px;
+  height: auto;
 }
 .about-content img {
-  max-width: 970px;
+  max-width: 600px;
 }
 
 .about-content div {
@@ -185,10 +205,12 @@ i {
 }
 
 .about-description h2 {
-  font-size: 38px;
+  font-size: 50px;
   margin-bottom: 24px;
+  font-weight: 400;
 }
 .about-description p {
+  font-size: 25px;
   margin-bottom: 14px;
   line-height: 150%;
 }
@@ -222,44 +244,52 @@ i {
   max-width: 780px;
 }
 
-.haircurts {
+.servicos {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 16px;
   padding: 0 44px 34px 44px;
 }
 
-.haircut {
+.servico {
   flex: 1;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.5);
   overflow: hidden;
 }
-.haircut img {
+.servico img {
   width: 100%;
   max-width: 354px;
   transform: transform 0.2s;
 }
 
-.haircut img:hover {
+.servico img:hover {
   transform: scale(1.2);
   z-index: 1;
 }
 
-.haircut-info {
+.servico-info {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   padding: 14px;
   background-color: #fff;
   z-index: 99;
 }
 
-.haircut-info button {
+.servico-info strong {
+  font-size: 50px;
+  font-family: playwrite, sans-serif;
+}
+
+.servico-info button {
   color: #fff;
   background-color: #d94140;
   padding: 4px 8px;
@@ -269,10 +299,10 @@ i {
 }
 
 @media screen and (max-width: 768px) {
-  .haircurts {
+  .servicos {
     flex-direction: column;
   }
-  .haircut img {
+  .servico img {
     max-width: 740px;
   }
 }
@@ -335,7 +365,7 @@ body {
   width: 100%;
   height: 100vh;
   position: relative;
-  background-color: #06121e;
+  background-color: #d4a373;
 }
 
 button {
