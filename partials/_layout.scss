@@ -102,16 +102,25 @@
 
 //-------------------------------------------
 
-// about -------------------------------------
+// section -------------------------------------
 
-.about {
+.section1 {
     background-color: $primary-normal;
     overflow: hidden;
-    color: $white-normal;
+    color: $brown-light;
+    padding-bottom: 20px;
+    
+}
+.section2 {
+    border-radius: 15% 15% 0 0; //bordas arredondadas em cima
+    padding: 20px;
+    background-color: $brown-light;
+    overflow: hidden;
+    color: $black-dark;
     
 }
 
-.about-content{
+.section-content{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,14 +130,15 @@
     
     img {
         max-width: 600px;
+        border-radius: 25px;
     }
 }
 
-.about-content div {
+.section-content div {
     flex: 1;
 }
 
-.about-description {
+.section-description {
     h2{
         font-size: 50px;
         margin-bottom: 24px;
@@ -140,10 +150,66 @@
         margin-bottom: 14px;
         line-height: 150%;
     }
+
+}
+
+.section-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2{
+        font-size: 35px;
+        margin-bottom: 24px;
+        font-weight: 400;
+    }
+    
+    p{
+        font-size: 25px;
+        margin-bottom: 14px;
+        line-height: 150%;
+    }
+
+    h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+        margin-top: 24px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    li {
+        font-size: 20px;
+    }
+
+    .lista{
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .button-contact-section{
+        padding: 14px 28px;
+        color: $primary-light;
+        background-color: $secondary-normal;
+        border: 0;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 14px 0; 
+        border-radius: 20px;
+    }
+}
+
+.section-listas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
 }
 
 @media screen and (max-width: 768) {
-    .about-content{
+    .section-content{
         flex-direction: column;
     }
 }
@@ -220,7 +286,7 @@
 
 .servico-info strong{
     font-size:50px;
-    font-family: ;
+    // font-family: ;
 }
 
 .servico-info button{

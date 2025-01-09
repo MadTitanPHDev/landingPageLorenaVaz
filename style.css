@@ -21,7 +21,7 @@ i {
 
 .header-icons {
   display: flex;
-  gap: 14px;
+  gap: 35px;
 }
 
 .header-title {
@@ -32,7 +32,7 @@ i {
   color: #f4eadd;
 }
 .header-title h1 {
-  font-size: 80px;
+  font-size: 50px;
   font-family: "Antic Didone", serif;
 }
 
@@ -182,13 +182,22 @@ i {
     font-size: 24px;
   }
 }
-.about {
+.section1 {
   background-color: #d4a373;
   overflow: hidden;
-  color: #fff;
+  color: #f4eadd;
+  padding-bottom: 20px;
 }
 
-.about-content {
+.section2 {
+  border-radius: 15% 15% 0 0;
+  padding: 20px;
+  background-color: #f4eadd;
+  overflow: hidden;
+  color: #161617;
+}
+
+.section-content {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -196,27 +205,77 @@ i {
   padding: 0px 14px 0px 14px;
   height: auto;
 }
-.about-content img {
+.section-content img {
   max-width: 600px;
+  border-radius: 25px;
 }
 
-.about-content div {
+.section-content div {
   flex: 1;
 }
 
-.about-description h2 {
+.section-description h2 {
   font-size: 50px;
   margin-bottom: 24px;
   font-weight: 400;
 }
-.about-description p {
+.section-description p {
   font-size: 25px;
   margin-bottom: 14px;
   line-height: 150%;
 }
 
+.section-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section-list h2 {
+  font-size: 35px;
+  margin-bottom: 24px;
+  font-weight: 400;
+}
+.section-list p {
+  font-size: 25px;
+  margin-bottom: 14px;
+  line-height: 150%;
+}
+.section-list h1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-top: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+.section-list li {
+  font-size: 20px;
+}
+.section-list .lista {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.section-list .button-contact-section {
+  padding: 14px 28px;
+  color: #f4eadd;
+  background-color: #8c6239;
+  border: 0;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 14px 0;
+  border-radius: 20px;
+}
+
+.section-listas {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+}
+
 @media screen and (max-width: 768) {
-  .about-content {
+  .section-content {
     flex-direction: column;
   }
 }
@@ -286,7 +345,6 @@ i {
 
 .servico-info strong {
   font-size: 50px;
-  font-family: playwrite, sans-serif;
 }
 
 .servico-info button {
