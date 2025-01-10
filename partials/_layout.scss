@@ -117,6 +117,7 @@
     background-color: $brown-light;
     overflow: hidden;
     color: $black-dark;
+    //mudar fonte
     
 }
 
@@ -320,13 +321,18 @@
     justify-content: center;
     padding: 54px 0;
     gap: 24px;
-    color: $white-normal;
+    color: $secondary-normal;
+    background-color: $white-normal;
+    
 }
 
 .footer-icons{
     display: flex;
     gap: 8px;
-    color: $white-normal;
+    color: $secondary-normal;
+    i{
+        color: $secondary-normal;
+    }
 }
 
 //------------------------------------

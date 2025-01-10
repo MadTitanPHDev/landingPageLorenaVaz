@@ -1,12 +1,14 @@
 header{
     width: 100%;
-
+    
 }
 
 .header-content{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 10vh;
+    border-bottom: 2px solid $brown-light;
 }
 
 i{
@@ -16,6 +18,8 @@ i{
 .header-icons{
     display: flex;
     gap: 35px;
+    
+    
 }
 
 .header-title{
@@ -26,7 +30,7 @@ i{
     color: $brown-light;
 
     h1{
-        font-size: 50px;
+        font-size: 35px;
         font-family: 'Antic Didone', serif;
     }
 }
@@ -72,6 +76,12 @@ i{
     align-items: center;
     justify-content: center;
     margin-top: 14px;
+
+    img {
+        height: 150px;
+        padding: 25px;
+    }
+    
 }
 
 @media screen and (max-width: 720px) {

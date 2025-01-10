@@ -13,6 +13,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 10vh;
+  border-bottom: 2px solid #f4eadd;
 }
 
 i {
@@ -32,7 +34,7 @@ i {
   color: #f4eadd;
 }
 .header-title h1 {
-  font-size: 50px;
+  font-size: 35px;
   font-family: "Antic Didone", serif;
 }
 
@@ -74,6 +76,10 @@ i {
   align-items: center;
   justify-content: center;
   margin-top: 14px;
+}
+.header-logo img {
+  height: 150px;
+  padding: 25px;
 }
 
 @media screen and (max-width: 720px) {
@@ -371,13 +377,17 @@ i {
   justify-content: center;
   padding: 54px 0;
   gap: 24px;
-  color: #fff;
+  color: #8c6239;
+  background-color: #fff;
 }
 
 .footer-icons {
   display: flex;
   gap: 8px;
-  color: #fff;
+  color: #8c6239;
+}
+.footer-icons i {
+  color: #8c6239;
 }
 
 .btn-whatsapp {
