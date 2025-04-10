@@ -139,7 +139,7 @@ i {
   content: "";
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #d4a373), url("../assets/imagem1.jpeg");
+  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #d4a373), url("../assets/nImages/imagem1.jpeg");
   left: 0;
   top: 0;
   width: 100%;
