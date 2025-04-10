@@ -7,7 +7,7 @@ header{
 .header-content{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 10vh;
     
     background-color: white;
@@ -20,7 +20,11 @@ i{
 
 .header-icons{
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 35px;
+    height: 150px;
+    width: 150px;
     
     i{
         color: $primary-normal;
@@ -127,7 +131,7 @@ i{
     }
 
     .header-icons{
-        // gap: 14px;
+        gap: 10px;
         i{
             height: 10px;
         }

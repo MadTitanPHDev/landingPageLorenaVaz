@@ -12,7 +12,7 @@ header {
 .header-content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 10vh;
   background-color: white;
   border-bottom: 2px solid #f4eadd;
@@ -24,7 +24,11 @@ i {
 
 .header-icons {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 35px;
+  height: 150px;
+  width: 150px;
 }
 .header-icons i {
   color: #d4a373;
@@ -114,6 +118,9 @@ i {
   .header-title h3 {
     font-size: 14px;
     text-align: center;
+  }
+  .header-icons {
+    gap: 10px;
   }
   .header-icons i {
     height: 10px;
@@ -211,9 +218,6 @@ i {
   color: #f4eadd;
   padding-bottom: 20px;
 }
-.section1 img {
-  margin-left: 100px;
-}
 
 .section2 {
   border-radius: 15% 15% 0 0;
@@ -233,7 +237,7 @@ i {
 }
 .section-content img {
   max-width: 600px;
-  border-radius: 25px;
+  border-radius: 12px;
 }
 
 .section-content div {
