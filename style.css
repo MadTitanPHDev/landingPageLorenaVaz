@@ -227,7 +227,7 @@ i {
   align-items: flex-start;
   justify-content: right;
   min-height: 500px;
-  width: 100vw;
+  width: 100%;
 }
 .section1 .left {
   font-size: 25px;
@@ -242,7 +242,10 @@ i {
 .section1 .left .section1-title {
   width: 200px;
   text-align: right;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  color: #d4a373;
+  font-family: "Crimson Text", serif;
+  font-weight: 800;
+  font-style: bold;
 }
 .section1 .right {
   font-size: 25px;
@@ -270,16 +273,27 @@ i {
   padding: 0px 14px 0px 14px;
   height: auto;
   width: auto;
+  overflow: hidden;
 }
 
 .section-content div {
   flex: 1;
 }
 
+.section-description .section-description-title {
+  color: #a67c52;
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: italic;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
 .section-description p {
   font-size: 25px;
   margin-bottom: 14px;
   line-height: 150%;
+  font-family: "Poiret One", sans-serif;
+  font-weight: 800;
+  font-style: normal;
 }
 .section-description .lista {
   display: flex;
@@ -289,56 +303,23 @@ i {
 }
 .section-description .lista li {
   font-size: 20px;
-}
-
-.section-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.section-list h2 {
-  font-size: 35px;
-  margin-bottom: 24px;
-  font-weight: 400;
-}
-.section-list p {
-  font-size: 25px;
-  margin-bottom: 14px;
-  line-height: 150%;
-}
-.section-list h1 {
-  font-size: 25px;
-  margin-bottom: 20px;
-  margin-top: 24px;
-  font-weight: 400;
-  text-align: center;
-}
-.section-list li {
-  font-size: 20px;
-}
-.section-list .button-contact-section {
-  padding: 14px 28px;
-  color: #f4eadd;
-  background-color: #8c6239;
-  border: 0;
-  font-size: 18px;
+  font-family: "Poiret One", sans-serif;
   font-weight: 600;
-  margin: 14px 0;
-  border-radius: 20px;
+  font-style: normal;
 }
 
 @media screen and (max-width: 768px) {
   .section1 {
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 600px;
   }
   .section1-title {
     text-align: center;
+    align-items: flex-start;
+    justify-content: flex-end;
     width: 100%;
-    font-size: 32px;
+    font-size: 22px;
   }
   .container.section-content {
     flex-direction: column;
@@ -367,6 +348,7 @@ i {
   gap: 14px;
   padding: 34px 14px 64px 14px;
   height: auto;
+  overflow: hidden;
 }
 .sectionSobre-content .sectionSobre-img {
   display: flex;
@@ -385,12 +367,19 @@ i {
 .sectionSobre-description h2 {
   font-size: 38px;
   margin-bottom: 24px;
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #a67c52;
 }
 .sectionSobre-description p {
   font-size: 20px;
   margin-bottom: 14px;
   line-height: 150%;
   max-width: 720px;
+  font-family: "Poiret One", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 .sectionSobre-description .bold {
   font-weight: 600;
