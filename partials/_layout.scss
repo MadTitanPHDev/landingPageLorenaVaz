@@ -8,6 +8,7 @@
 
 .bg-home {
     position: relative;
+    overflow: hidden;
 }
 
 .bg-home::before {
@@ -196,6 +197,7 @@
         font-family: "Poiret One", sans-serif;
         font-weight: 800;
         font-style: normal;
+        text-align: justify;
     }
 
     .lista {
@@ -219,21 +221,30 @@
 @media screen and (max-width: 768px) {
 
     .section1 {
-        min-height: 600px;
+        // min-height: 600px;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .left{
-        align-items: flex-start;
-        justify-content: flex-end;
-        width: 100%;
-        margin: 0px;
+    .section1 .left{
+        // align-items: flex-start;
+        // justify-content: flex-end;
+        // margin: 0px;
+        display: none;
     }
 
-    .section1-title {
-        text-align: end;
-        width: 100%;
-        font-size: 22px;
+    // .section1-title {
+    //     // width: 100%;
+    //     font-size: 22px;
 
+    // }
+
+    .section1 .right{
+        width: 100%;
+        margin: 50px 14px 14px 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .container.section-content {
@@ -250,6 +261,7 @@
             font-size: 15px;
             margin-bottom: 7px;
             line-height: 150%;
+            
         }
 
         .lista {
@@ -329,6 +341,7 @@
         font-family: "Poiret One", sans-serif;
         font-weight: 600;
         font-style: normal;
+        text-align: justify;
     }
 
     .bold {
