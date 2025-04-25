@@ -285,9 +285,7 @@
     align-items: center;
 
     background-color: $brown-light;
-    opacity: 0.8;
-    background-image: radial-gradient($primary-normal 0.5px, $brown-light 0.5px);
-    background-size: 10px 10px;
+   
 
 }
 
@@ -370,6 +368,11 @@
 @media screen and (max-width: 768px) {
     .sectionSobre-content {
         flex-direction: column;
+    }
+
+    .sectionSobre-description {
+        align-items: center;
+        text-align: center;
     }
 }
 

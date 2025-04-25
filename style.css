@@ -42,7 +42,7 @@ i {
   color: #d4a373;
 }
 .header-title h1 {
-  font-size: 38px;
+  font-size: 52px;
   font-family: "Monomakh", sans-serif;
   font-weight: 500;
 }
@@ -119,7 +119,7 @@ i {
     justify-content: center;
   }
   .header-title h1 {
-    font-size: 24px;
+    font-size: 18px;
   }
   .header-title h3 {
     font-size: 14px;
@@ -346,9 +346,6 @@ i {
   display: flex;
   align-items: center;
   background-color: #f4eadd;
-  opacity: 0.8;
-  background-image: radial-gradient(#d4a373 0.5px, #f4eadd 0.5px);
-  background-size: 10px 10px;
 }
 
 .sectionSobre-content {
@@ -421,6 +418,10 @@ i {
 @media screen and (max-width: 768px) {
   .sectionSobre-content {
     flex-direction: column;
+  }
+  .sectionSobre-description {
+    align-items: center;
+    text-align: center;
   }
 }
 .footer {
