@@ -42,7 +42,7 @@ i {
   color: #d4a373;
 }
 .header-title h1 {
-  font-size: 52px;
+  font-size: 42px;
   font-family: "Monomakh", sans-serif;
   font-weight: 500;
 }
@@ -292,7 +292,7 @@ i {
   font-size: 25px;
   margin-bottom: 14px;
   line-height: 150%;
-  font-family: "Poiret One", sans-serif;
+  font-family: "Antic Didone", sans-serif;
   font-weight: 800;
   font-style: normal;
   text-align: justify;
@@ -301,11 +301,12 @@ i {
   display: flex;
   flex-direction: column;
   gap: 14px;
-  list-style: none;
+  list-style: square;
+  margin-left: 18px;
 }
 .section-description .lista li {
   font-size: 20px;
-  font-family: "Poiret One", sans-serif;
+  font-family: "Antic Didone", sans-serif;
   font-weight: 600;
   font-style: normal;
 }
@@ -390,7 +391,7 @@ i {
   margin-bottom: 14px;
   line-height: 150%;
   max-width: 720px;
-  font-family: "Poiret One", sans-serif;
+  font-family: "Antic Didone", sans-serif;
   font-weight: 600;
   font-style: normal;
   text-align: justify;
@@ -422,6 +423,12 @@ i {
   .sectionSobre-description {
     align-items: center;
     text-align: center;
+  }
+  .sectionSobre-description h2 {
+    font-size: 26px;
+  }
+  .sectionSobre-description p {
+    font-size: 16px;
   }
 }
 .footer {

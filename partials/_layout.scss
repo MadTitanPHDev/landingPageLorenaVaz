@@ -16,6 +16,7 @@
     display: block;
     position: absolute;
     background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #d4a373), url("../assets/nImages/imagem1.jpeg");
+    // background-image: url("../assets/nImages/imagem1.jpeg");
     left: 0;
     top: 0;
     width: 100%;
@@ -194,7 +195,7 @@
         font-size: 25px;
         margin-bottom: 14px;
         line-height: 150%;
-        font-family: "Poiret One", sans-serif;
+        font-family: "Antic Didone", sans-serif;
         font-weight: 800;
         font-style: normal;
         text-align: justify;
@@ -204,13 +205,15 @@
         display: flex;
         flex-direction: column;
         gap: 14px;
-        list-style: none;
+        list-style: square;
+        margin-left: 18px;
 
         li {
             font-size: 20px;
-            font-family: "Poiret One", sans-serif;
+            font-family: "Antic Didone", sans-serif;
             font-weight: 600;
             font-style: normal;
+
         }
 
 
@@ -336,7 +339,7 @@
         margin-bottom: 14px;
         line-height: 150%;
         max-width: 720px;
-        font-family: "Poiret One", sans-serif;
+        font-family: "Antic Didone", sans-serif;
         font-weight: 600;
         font-style: normal;
         text-align: justify;
@@ -373,7 +376,15 @@
     .sectionSobre-description {
         align-items: center;
         text-align: center;
+
+        h2{
+            font-size: 26px;
+        }
+        p{
+            font-size: 16px;
+        }
     }
+    
 }
 
 //-------------------------------------------------------
