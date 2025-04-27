@@ -221,6 +221,8 @@ i {
 }
 .section1 {
   background-color: #f4eadd;
+  background-image: url("../assets/fundoV2.svg");
+  background-repeat: no-repeat;
   overflow: hidden;
   color: #161617;
   padding-bottom: 20px;
