@@ -1,285 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lorena Vaz — Estética e Massoterapia Integrada. Agende seu horário para cuidados com corpo, mente e bem-estar.">
+    <meta name="theme-color" content="#F5E6C8">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
+    <!-- fontes consolidadas -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Sora:wght@100..800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-
-
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Serif+Display:ital@0;1&family=Monomakh&family=Playwrite+GB+J+Guides:ital@0;1&family=Poiret+One&family=Sora:wght@100..800&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
-
-    <!-- //////////////////////////////////////////////////////////////// -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="style.css">
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <title>Lorena Vaz - Massoterapeuta</title>
 </head>
 
 <body>
+    <!-- skip link para acessibilidade -->
+    <!-- <a class="skip-link" href="#main-content">Pular para o conteúdo</a> -->
+
     <div class="bg-home">
         <header>
-            <nav class="header-content container">
-
-
+            <nav class="header-content container" aria-label="Navegação principal">
                 <div class="header-logo" data-aos="fade-down" data-aos-delay="300">
-                    <img data-aos="flip-up" data-aos-delay="300" data-aos.duration="1500" src="assets/logo_normal.svg"
-                        alt="logo lorena">
+                    <img data-aos="flip-up" data-aos-delay="300" data-aos-duration="1500" src="assets/logo_normal.svg"
+                        alt="Logo Lorena" width="120" height="60" loading="lazy">
                 </div>
 
                 <div class="header-title" data-aos="fade-down">
-                    <h1>LORENA VAZ</h1>
+                    <!-- manter apenas um h1 no site (está no main); usar h2 aqui -->
+                    <h2>LORENA VAZ</h2>
                     <h3>ESTÉTICA E BEM-ESTAR INTEGRADO</h3>
                 </div>
 
-                <!-- <div data-aos="fade-down" class="header-buttons">
-                    <a class="header-button"
-                        href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!"
-                        target="_blank">
-                        Agende seu horario
-                    </a>
-                    <a class="header-button"
-                        href="https://www.instagram.com/lorenayme_vaz/"
-                        target="_blank">
-                        Nos siga no instagram
-                    </a>
-                </div> -->
-
-                <div class="header-icons" data-aos="fade-down">
+                <div class="header-icons" data-aos="fade-down" role="navigation" aria-label="Redes sociais">
                     <a
-                        href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!">
-                        <i class="fa-brands fa-whatsapp fa-2x"></i>
+                        href="https://api.whatsapp.com/send?phone=5518996255421&text=Quero%20fazer%20um%20agendamento%20hoje!"
+                        target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                        <i class="fa-brands fa-whatsapp fa-2x" aria-hidden="true"></i>
                     </a>
-                    <a href="https://www.instagram.com/lorenayme_vaz/">
-                        <i class="fa-brands fa-instagram fa-2x"></i>
+                    <a href="https://www.instagram.com/lorenayme_vaz/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram fa-2x" aria-hidden="true"></i>
                     </a>
-
                 </div>
-
             </nav>
-
-            <main class="hero container" data-aos="fade-up" data-aos-delay="300">
-                <!-- <h1>VIVER COM HARMONIA É UM PROCESSO CONTÍNUO DE AUTOCONHECIMENTO E AUTOCUIDADO</h1> -->
-                <h1>DESCUBRA COMO A ESTÉTICA E A MASSOTERAPIA INTEGRATIVA PODE TRANSFORMAR SEU BEM-ESTAR</h1>
-
-                <a href="https://api.whatsapp.com/send?phone=5518996255421&text=Quero%20fazer%20um%20agendamento%20hoje!"
-                    class="button-contact" target="_blank">
-                    Agendar horário
-                </a>
-            </main>
-
-
         </header>
 
+        <main id="main-content" class="hero container" data-aos="fade-up" data-aos-delay="300">
+            <h1>DESCUBRA COMO A ESTÉTICA E A MASSOTERAPIA INTEGRATIVA PODE TRANSFORMAR SEU BEM-ESTAR</h1>
 
+            <a href="https://api.whatsapp.com/send?phone=5518996255421&text=Quero%20fazer%20um%20agendamento%20hoje!"
+                class="button-contact" target="_blank" rel="noopener noreferrer" aria-label="Agendar horário no WhatsApp">
+                Agendar horário
+            </a>
+        </main>
     </div>
 
     <!-- section 1 -->
     <section class="section1">
-
         <div class="left" data-aos="fade-right" data-aos-delay="300">
-            <h1 class="section1-title">EM QUE POSSO TE AJUDAR?</h1>
+            <h2 class="section1-title">EM QUE POSSO TE AJUDAR?</h2>
         </div>
 
         <div class="right">
-            <div class="container section-content"> 
-
+            <div class="container section-content">
                 <div class="section-description" data-aos="zoom-in" data-aos-delay="300">
-                    <h2 class="section-description-title"> Estética e Massoterapia Integrada </h2>
+                    <h3 class="section-description-title">Estética e Massoterapia Integrada</h3>
                     <p>Se você sente que precisa de um momento só seu, para relaxar, se cuidar e se
                         reconectar, a massoterapia e a estética podem transformar sua rotina.
                         Com técnicas que tratam o físico, emocional e energético, posso te ajudar a aliviar tensões,
                         melhorar sua autoestima e realçar sua beleza natural. Seu bem-estar começa aqui.
                     </p>
-                    <!-- colocar espaço -->
-                    
+
                     <ul class="lista">
                         <li data-aos="fade-up" data-aos-delay="250">Dores Musculares</li>
-                        
                         <li data-aos="fade-up" data-aos-delay="250">Melhorar a Autoestima</li>
-                        
                         <li data-aos="fade-up" data-aos-delay="250">Falta de Energia</li>
-                        
                         <li data-aos="fade-up" data-aos-delay="250">Ansiedade e Estresse</li>
-                        
                         <li data-aos="fade-up" data-aos-delay="250">Diminuir Inchaço</li>
-                        
                         <li data-aos="fade-up" data-aos-delay="250">Relaxamento e Autoconhecimento</li>
-                        
                     </ul>
-
                 </div>
             </div>
         </div>
-
     </section>
 
-    <!-- section 2-->
-    <!-- <section class="section2">
-        <div class="container section-content">
-
-
-            <div class="section-list" data-aos="zoon-out-left" data-aos-delay="250">
-
-                <h2> Quais benefícios a massoterapia pode trazer para você? </h2>
-
-                <div class="section-listas">
-                    <ul class="lista">
-                        <li>Melhora a circulação de energia (Qi).</li>
-                        <li>Alivia dores crônicas e inflamações.</li>
-                        <li>Reduz o estresse e a ansiedade.</li>
-                        <li>Equilibra as emoções e promove bem-estar mental.</li>
-                        <li>Fortalece o sistema imunológico.</li>
-                        <li>Melhora a qualidade do sono.</li>
-                        <li>Regula distúrbios menstruais e sintomas da menopausa.</li>
-                        
-                    </ul>
-
-                    <ul class="lista">
-                        <li>Redução de estresse e relaxamento.</li>
-                        <li>Alívio de dores musculares e articulares.</li>
-                        <li>Melhora da circulação sanguínea.</li>
-                        <li>Aumento da flexibilidade e postura.</li>
-                        <li>Melhora no sono.</li>
-                        <li>Equilíbrio emocional.</li>
-                        <li>Recuperação muscular mais rápida.</li>
-                    </ul>
-                </div>
-
-                <h1>Além disso, ela contribui para a melhora da autoestima, restaurando a harmonia entre corpo e mente. Uma verdadeira 
-                    aliada na busca por qualidade de vida e saúde integral!</h1>
-
-                <a href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!"
-                    class="button-contact-section" target="_blank">
-                    Agendar horário
-                </a>
-            </div>
-
-        </div>
-    </section> -->
-
-    <!-- section 2 -->
+    <!-- section Sobre -->
     <section class="sectionSobre">
         <div class="container sectionSobre-content">
             <div class="sectionSobre-img" data-aos="zoom-in" data-aos-delay="150">
-                <img src="assets/lorena_sobre.png" alt="Foto da Lorena">
+                <img src="assets/lorena_sobre.png" alt="Foto da Lorena" loading="lazy" style="width:100%;height:auto;">
             </div>
 
-            <div class="sectionSobre-description" data-aos="zoon-out-left" data-aos-delay="250">
-                <h2> MEU PROPOSITO </h2>
-                <p data-aos="fade-right" data-aos-delay="300">Sou apaixonada pelo cuidado com o corpo, a mente e a alma. Trabalho com Estética e Massoterapia Integrada, 
-                    unindo técnicas que tratam não apenas o físico, mas também o emocional e energético, promovendo equilíbrio, 
+            <div class="sectionSobre-description" data-aos="zoom-out-left" data-aos-delay="250">
+                <h2>MEU PROPÓSITO</h2>
+                <p data-aos="fade-right" data-aos-delay="300">Sou apaixonada pelo cuidado com o corpo, a mente e a alma. Trabalho com Estética e Massoterapia Integrada,
+                    unindo técnicas que tratam não apenas o físico, mas também o emocional e energético, promovendo equilíbrio,
                     autoestima e bem-estar em cada atendimento.
                 </p>
 
-                <p data-aos="fade-right" data-aos-delay="350">Acredito que cada pessoa carrega uma história no corpo, e meu propósito é ajudar a aliviar dores, 
-                    melhorar a autoestima e proporcionar momentos de reconexão. 
-                    Com um olhar humanizado e individualizado, ofereço terapias que respeitam a sua essência e 
-                    necessidades, para que você se sinta cuidada de forma completa.
+                <p data-aos="fade-right" data-aos-delay="350">Acredito que cada pessoa carrega uma história no corpo, e meu propósito é ajudar a aliviar dores,
+                    melhorar a autoestima e proporcionar momentos de reconexão.
                 </p>
-                 
-                 <p data-aos="fade-right" data-aos-delay="400">
-                    Aqui, seu bem-estar é prioridade. Vamos juntas transformar autocuidado em um ritual de amor próprio?
-                 </p>
 
-                <p class="bold"> Vamos cuidar de você?</p>
+                <p data-aos="fade-right" data-aos-delay="400">
+                    Aqui, seu bem-estar é prioridade. Vamos juntas transformar autocuidado em um ritual de amor próprio?
+                </p>
+
+                <p class="bold">Vamos cuidar de você?</p>
 
                 <a href="https://api.whatsapp.com/send?phone=5518996255421&text=Quero%20fazer%20um%20agendamento%20hoje!"
-                    class="button-contact-about" target="_blank">
+                    class="button-contact-about" target="_blank" rel="noopener noreferrer" aria-label="Agendar horário">
                     Agendar horário
                 </a>
-                
-
             </div>
         </div>
     </section>
 
-    <!-- services -->
-
-    <!-- <section class="services">
-        <div class="services-container container">
-            <h2>Serviços</h2>
-            <p>texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
-                texto texto texto texto texto texto texto texto texto texto texto texto texto </p>
-        </div>
-
-        <section class="servicos">
-
-            <div class="servico" data-aos="fade-up" data-aos-delay="150">
-                <div class="servico-info">
-                    <strong>Massagem relaxante</strong>
-                    <p>Uma massagem que você esquece do mundo ao seu redor e se conecta com seu eu.
-                        Melhora a circulação, a qualidade de sono, dores e ajuda da ansiedade. </p>
-                </div>
-                <img src="./assets/massagem_relaxante.jpg" alt="">
-            </div>
-
-            <div class="servico" data-aos="fade-up" data-aos-delay="200">
-                <img src="./assets/corte2.png" alt="">
-                <div class="servico-info">
-                    <strong>Barba</strong>
-                    <button>R$ 35,00</button>
-                </div>
-            </div>
-            
-            <div class="servico" data-aos="fade-up" data-aos-delay="150">
-                <div class="servico-info">
-                    <strong>Corte Normal</strong>
-                    <button>R$ 45,00</button>
-                </div>
-                <img src="./assets/corte1.png" alt="">
-            </div>
-
-            <div class="servico" data-aos="fade-up" data-aos-delay="250">
-                <img src="./assets/corte3.png" alt="">
-                <div class="servico-info">
-                    <strong>Cabelo e barba</strong>
-                    <button>R$ 65,00</button>
-                </div>
-            </div>
-
-        </section>
-
-    </section> -->
-
-    
     <footer class="footer">
         <div class="footer-icons">
-            <a href="https://www.instagram.com/lorenayme_vaz/" target="_blank">
-                <i class="fa-brands fa-instagram fa-2x"></i>
+            <a href="https://www.instagram.com/lorenayme_vaz/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <i class="fa-brands fa-instagram fa-2x" aria-hidden="true"></i>
             </a>
-            <a href="https://api.whatsapp.com/send?phone=5518996255421&text=Quero%20fazer%20um%20agendamento%20hoje!" target="_blank">
-                <i class="fa-brands fa-whatsapp fa-2x"></i>
+            <a href="https://api.whatsapp.com/send?phone=5518996255421&text=Quero%20fazer%20um%20agendamento%20hoje!" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                <i class="fa-brands fa-whatsapp fa-2x" aria-hidden="true"></i>
             </a>
         </div>
         <div class="footer-logo">
-            <img src="assets/logo_amarelo.png" alt="Logo lorena">
+            <img src="assets/logo_amarelo.png" alt="Logo Lorena" loading="lazy" style="width:120px;height:auto;">
         </div>
         <p>Copyright 2025 | Lorena Vaz - Todos direitos reservados.</p>
     </footer>
 
-    <!-- Button Whatsapp -->
-    <!-- <a href="https://api.whatsapp.com/send?phone=5518996255421&text=Quero%20fazer%20um%20agendamento%20hoje!"
-        class="btn-whatsapp" target="_blank" data-aos="zoom-in-up" data-aos-delay="400">
+    <script>
+        // inicializar AOS (verifica se está carregado)
+        if (window.AOS) {
+            AOS.init({
+                once: true,
+                duration: 700
+            });
+        }
+    </script>
 
-        <img src="assets/whatsapp-svgrepo-com.svg" alt="Botao WhatsApp">
-        <span class="tooltip-text">
-            Agende seu horário.
-        </span>
-    </a> -->
     <script src="script.js"></script>
 </body>
 
